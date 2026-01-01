@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+</head>
+<body>
+
+    <!-- top nav  -->
+
+    <div class="bg-primary1 w-full p-2">
+        <div class="max-w-screen-xl px-2 xl:px-0 container mx-auto flex justify-center sm:justify-between ">
+            <p class="text-white text-xs sm:text-sm sm:flex gap-2 items-center hidden"><img src="assets/icon/call.svg" alt="call" class="h-5">0834 213 8123</p>
+            <p class="text-white text-xs sm:text-sm">Dapatkan Promo Beli 1 Gratis 1</p>
+            <p class="text-white text-xs sm:text-sm sm:flex gap-2 items-center hidden"><img src="assets/icon/location.svg" alt="location" class="h-5"> Semarang, Indonesia</p>
+        </div>
+    </div>
+
+    <!-- tutup top nav -->
+
+    <!-- Navbar -->
+
+    <nav class="bg-neutral-primary fixed w-full border-b border-border px-2 lg:px-0">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="assets/logo/logo.svg" class="h-7" alt="Flowbite Logo" />
+            </a>
+            <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="mr-2 text-primary1 rounded-lg hover:bg-green-900 box-border border border-primary1 focus:ring-4 focus:ring-green-400 shadow-xs font-medium leading-5  px-3 sm:px-10 py-2 focus:outline-none dark:bg-green-700 cursor-pointer hover:text-white">Login</button>
+                <button type="button" class="text-white rounded-lg hover:bg-green-900 bg-primary1 box-border border border-primary1 focus:ring-4 focus:ring-green-400 shadow-xs font-medium leading-5  px-3 sm:px-10 py-2 focus:outline-none dark:bg-green-700 cursor-pointer">Daftar</button>
+                <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+                <li>
+                    <a href="#" class="font-bold block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Home</a>
+                </li>
+                <li>
+                    <button id="dropdownNvbarButton" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 rounded font-bold text-heading md:w-auto hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 cursor-pointer">
+                        Ketegori 
+                        <svg class="w-4 h-4 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/></svg>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownNavbar" class="z-10 hidden bg-white border border-border rounded-lg shadow-lg w-44">
+                        <ul class="p-2 text-sm text-body font-medium" aria-labelledby="dropdownNvbarButton">
+                            <li>
+                                <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">T-Shirt</a>
+                            </li>
+                            <li>
+                                <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#" class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Jeans</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="font-bold block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Promo</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tutup Navbar -->
+</body>
+</html>
